@@ -22,7 +22,6 @@ Join Us: https://hzres.net/join/
 -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/stylish-portfolio.css" rel="stylesheet">
-	<link href="css/responsive-video.css" rel="stylesheet">
 	<link href="css/video-js.css" rel="stylesheet">
 	<!-- If you'd like to support IE8 -->
 	<script src="js/videojs-ie8.min.js"></script>
@@ -83,7 +82,7 @@ Join Us: https://hzres.net/join/
 					<p><span style="font-size: 3.5em;">关于 INGRESS</span>
 						<br /><span style="font-size: 10px; color: #27aae1;">「The world around you is not what it seems」- Niantic Lab.</span></p>
 
-					<video id="my-video" class="video-js" controls preload="auto" width="98%" height="75%" data-setup="{}">
+					<video id="my-video" class="video-js" controls preload="auto" width="100%" height="100%" data-setup="{}">
 						<source src="https://dn-jinwei.qbox.me/IngressNianticProject.mp4" type='video/mp4'>
 						<p class="vjs-no-js">
 							To view this video please enable JavaScript, and consider upgrading to a web browser that
@@ -208,7 +207,7 @@ Join Us: https://hzres.net/join/
 
 					<ol style="line-height:200%;font-size:18px">
 						<li>开启 Ingress 账号，选择蓝色阵营「RESISTANCE」</li>
-						<li>下载 Telegram，我们使用它作为主要联络工具</li>
+						<li>下载 <a href="https://telegram.org/" target="_blank">Telegram</a>，我们使用它作为主要联络工具</li>
 						<li>点击下方按钮，加入我们的 Telegram 群组，与战友交换情报。</li>
 					</ol>
 
@@ -263,9 +262,11 @@ Join Us: https://hzres.net/join/
 						$('html,body').animate({
 							scrollTop: target.offset().top
 						}, 1000);
+						$("#menu-close").click();
 						return false;
 					}
 				}
+
 			});
 		});
 	</script>
