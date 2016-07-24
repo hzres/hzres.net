@@ -128,7 +128,7 @@ html, body {
     height: 100%;
     width: 100%;
     position: relative;
-    background: url("../img/landscapes-city_00244356_rar.jpg") no-repeat center center fixed;
+    background: url("../img/west_lake.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -185,7 +185,7 @@ i.service-icon {
     display: table;
     height: 400px;
     width: 100%;
-    background: url("../img/bg1.jpg") no-repeat center center fixed;
+    background: url("../img/photo_2016-07-24_09-46-32.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -249,10 +249,10 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
     .header {
-        background: url("../img/landscapes-city_00244356.jpg") no-repeat center center scroll;
+        background: url("../img/west_lake_compressed.jpg") no-repeat center center scroll;
     }
     .callout {
-        background: url("../img/bg1.jpg") no-repeat center center scroll;
+        background: url("../img/photo_2016-07-24_09-46-32.jpg") no-repeat center center scroll;
     }
     .map {
         height: 75%;
