@@ -258,3 +258,14 @@ i.scroll:hover {
         height: 75%;
     }
 }
+
+/* New Global Styles @Neoii 2017-4-5 */
+@font-face{font-family:COPRGTB; src:url('../fonts/COPRGTB.TTF');}
+
+.bluebg {
+    background-color: #003367;  background-color:rgba(0,0,0,0.64); padding: 6px;
+}
+
+.bluebg h2{
+    font-family: "COPRGTB", "helvetica neue", "Roboto", "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", "黑体", "SimHei", sans-serif;
+}
