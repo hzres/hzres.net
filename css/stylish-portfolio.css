@@ -185,7 +185,7 @@ i.service-icon {
     display: table;
     height: 400px;
     width: 100%;
-    background: url("../img/photo_2016-07-24_09-46-32.jpg") no-repeat center center fixed;
+    background: url("../img/hzmd.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -252,7 +252,7 @@ i.scroll:hover {
         background: url("../img/west_lake_compressed.jpg") no-repeat center center scroll;
     }
     .callout {
-        background: url("../img/photo_2016-07-24_09-46-32.jpg") no-repeat center center scroll;
+        background: url("../img/hzmd.jpg") no-repeat center center scroll;
     }
     .map {
         height: 75%;
