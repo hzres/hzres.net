@@ -249,10 +249,10 @@ i.scroll:hover {
 
 @media (max-width: 768px) {
     .header {
-        background: url("https://cdn.clarkzjw.cn/west_lake.jpg") no-repeat center center scroll;
+        background: url("https://cdn.clarkzjw.cn/west_lake.jpg") no-repeat center center fixed;
     }
     .callout {
-        background: url("https://cdn.clarkzjw.cn/hzmd.jpg") no-repeat center center scroll;
+        background: url("https://cdn.clarkzjw.cn/hzmd.jpg") no-repeat center center fixed;
     }
     .map {
         height: 75%;
